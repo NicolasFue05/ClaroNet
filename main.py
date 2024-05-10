@@ -15,14 +15,6 @@ while True: # bucle principal
                     if option == 1:
                         while True: # Mostrar catalogo de servicios
                             Functions.MostrarCatalogo("ServiciosDataBase.json")
-                            print("INGRESE EL NUMERO DE REFERENCIA DEL PRODUCTO QUE DESEAS COMPRAR")
-                            eleccion = str(menu.eleccion())
-                            datos = Functions.CargarDatos("ServiciosDataBase.json")
-                            for clave, valor in datos.items():
-                                for i in valor:
-                                    print(i)
-                                    break
-
                             print("----------")
                             print("[1] VOLVER")
                             print("----------")
@@ -35,13 +27,25 @@ while True: # bucle principal
                             Functions.MostrarCatalogo("ProductosDataBase.json")
                             print("----------")
                             print("[1] VOLVER")
-                            print("----------")                    
+                            print("----------")            
                             option = menu.eleccion()
                             if option == 1:
                                 os.system("clear")
                                 break
                     elif option == 3:
-                        None # servicio al cliente
+                        while True:  # servicio al cliente
+                            datos = Functions.CargarDatos("ConsultasDataBase.json")
+                            menu.menuServicioAlCliente()
+                            option = menu.eleccion()
+                            if option == 1:
+                                consulta = str(input("INGRESA LA CONSULTA QUE DESEAS\n>> "))
+                                for dato in datos.values():
+                                    datos = dato.append(consulta)
+                                    
+                            elif option == 2:
+                                None
+                            elif option == 3:
+                                break                                    
                     elif option == 4:
                         None # reclamos
                     elif option == 5:

@@ -8,6 +8,7 @@ def menu():
 [3] SALIR
 --------------------------------------------
 """) 
+    
 
 # MENUS ADMIN
 def menuAdmin():
@@ -16,6 +17,7 @@ def menuAdmin():
 [2] SERVICIOS
 [3] VOLVER AL MENU PRINCIPAL          
 """)
+    
 def menuUsers_Admin():
     print("""
 [1] CREAR USUARIO
@@ -27,14 +29,17 @@ def menuUsers_Admin():
 [7] VOLVER AL MENU PRINCIPAL          
 [8] SALIR          
 """)
+    
 def menuServices_Admin():
     print("""
+--------------------------------          
 [1] AGREGAR SERVICIO AL CATALOGO
 [2] LEER SERVICIO DEL CATALOGO
 [3] ACTUALIZAR SERVICIOS          
 [4] ELIMINAR SERVICIOS    
 [5] VOLVER AL MENU PRINCIPAL          
 [5] SALIR
+--------------------------------          
 """)
 
 # MENU USER
@@ -48,6 +53,15 @@ def menuUser():
 [5] SUGERENCIAS
 [6] VOLVER AL MENU PRINCIPAL                 
 -----------------------------           
+""")
+    
+
+def menuServicioAlCliente():
+    print("""
+---------------------------
+[1] CONSULTAS
+[2] REPORTAR UN PROBLEMA
+[3] VOLVER        
 """)
 
 def eleccion():

@@ -27,8 +27,13 @@ def MostrarCatalogo(archivo):
             for k in i.keys():
                 print(f"{k}: {i[k]}")
             print("----------------------------------------------------")
-        
 
-            
 
-#MostrarCatalogoServicios()
+# Guardar Consultas
+def GuardarConsulta():
+     None
+
+
+# Servicio al cliente
+def ServicioCliente():
+    None
