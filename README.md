@@ -1,2 +1,1 @@
-# o
-askhdfasjfgd
+# Proyecto python gestion de clar
