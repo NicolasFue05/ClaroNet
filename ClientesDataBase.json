@@ -1,0 +1,29 @@
+{
+    "Clientes": [
+        {
+            "Nombre": "Raul Ramirez",
+            "Identificacion": "1097782695",
+            "Informacion de Contacto": "raulr@gmail.com",
+            "Telefono Del Cliente": "3102199774",
+            "Direccion de Residencia": "Conjunto Altos del Viento",
+            "Historal de Compras": [
+                {
+                    "Nombre": "Celular ZTE Blade V50 Desing",
+                    "Descripcion": "",
+                    "Especificaciones": "",
+                    "Caracteristicas": [],
+                    "Disponibilidad": "Disponible",
+                    "Precio": "399.000"
+                },
+                {
+                    "Nombre": "Consola PlayStation®5 Slim Standar",
+                    "Descripcion": "",
+                    "Especificaciones": "",
+                    "Caracteristicas": [],
+                    "Disponibilidad": "Disponible",
+                    "Precio": "3.900.00"
+                }
+            ]
+        }
+    ]
+}

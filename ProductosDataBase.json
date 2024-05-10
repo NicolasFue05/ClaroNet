@@ -1,0 +1,33 @@
+{
+    "Productos": [
+        {
+            "Nombre": "Celular ZTE Blade V50 Design",
+            "Descripcion": "El ZTE Blade V50 Design es un teléfono inteligente elegante y potente que combina un diseño moderno con un rendimiento impresionante.",
+            "Especificaciones": "Pantalla Full HD+ de 6.5 pulgadas, procesador MediaTek Helio P60, 4GB de RAM, 128GB de almacenamiento interno, cámara principal cuádruple de 48MP+8MP+2MP+2MP, cámara frontal de 16MP, batería de 5000mAh, sistema operativo Android 11.",
+            "Caracteristicas": [
+                "Diseño elegante y moderno con acabado premium",
+                "Gran pantalla con colores vibrantes y alta resolución para una experiencia visual inmersiva",
+                "Potente rendimiento para multitarea fluida y juegos exigentes",
+                "Amplio almacenamiento interno para guardar fotos, videos y aplicaciones sin preocupaciones",
+                "Cámara cuádruple versátil para capturar imágenes impresionantes en cualquier situación",
+                "Batería de larga duración que proporciona una excelente autonomía",
+                "Sistema operativo Android 11 con acceso a todas las últimas funciones y actualizaciones de seguridad"
+            ],
+            "Disponibilidad": "Disponible",
+            "Precio": "399.000"
+        },        
+        {
+            "Nombre": "Consola PlayStation®5 Slim Standar",
+            "Descripcion": "La Consola PlayStation®5 Slim Standard ofrece una experiencia de juego de próxima generación con un diseño elegante y características avanzadas.",
+            "Especificaciones": "Potente procesador, gráficos de alta calidad, almacenamiento SSD ultrarrápido y compatibilidad con tecnologías de última generación.",
+            "Caracteristicas": [
+                "Gráficos de alta fidelidad para una experiencia visual impresionante.",
+                "Tiempo de carga reducido gracias al almacenamiento SSD.",
+                "Compatibilidad con juegos de PlayStation®4 y accesorios.",
+                "Tecnología de audio envolvente para una experiencia de sonido inmersiva."
+            ],
+            "Disponibilidad": "Disponible",
+            "Precio": "3.900.00"
+        }
+    ]
+}
