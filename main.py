@@ -15,43 +15,103 @@ while True: # bucle principal
                     if option == 1:
                         while True: # Mostrar catalogo de servicios
                             Functions.MostrarCatalogo("ServiciosDataBase.json")
-                            print("----------")
-                            print("[1] VOLVER")
-                            print("----------")
+                            print("--------------------")
+                            print("[1] COMPRAR PRODUCTO")
+                            print("[0] VOLVER")
+                            print("---------------------")
                             option = menu.eleccion()
-                            if option == 1: # Mostrar catalogo de productos
+                            id = str(input("INGRESA TU IDENTIFICACION\n>> "))
+                             # PONER EXCEPTION     
+                            if option == 1:                                
+                                print("----------------------------------------------------")
+                                print("INGRESE LA REFERENCIA DEL SERVICIO QUE DESEA COMPRAR")
+                                print("----------------------------------------------------")
+                                referencia = str(input(">> ")) # PONER EXCEPTION
+                                Functions.ComprarProductos(referencia)
                                 os.system("clear")
-                                break # catalogo de servicios
+                                print("-----------------------------")
+                                print("PRODUCTO AGREGADO CON EXITO!!")
+                                print("-----------------------------")
+                                time.sleep(2)
+                                os.system("clear")
+                            elif option == 0:
+                                 break
+                            else:
+                                os.system("clear")
+                                print("----------------")
+                                print("OPCION INVALIDA!")
+                                print("----------------")
+                                break
                     elif option == 2: # Mostrar catalogo de productos
                         while True:
                             Functions.MostrarCatalogo("ProductosDataBase.json")
-                            print("----------")
-                            print("[1] VOLVER")
-                            print("----------")            
-                            option = menu.eleccion()
-                            if option == 1:
+                            print("--------------------")
+                            print("[1] COMPRAR PRODUCTO")
+                            print("[0] VOLVER")
+                            print("---------------------")
+                            option = menu.eleccion()   # PONER EXCEPTION     
+                            if option == 1:                                
+                                print("----------------------------------------------------")
+                                print("INGRESE LA REFERENCIA DEL PRODUCTO QUE DESEA COMPRAR")
+                                print("----------------------------------------------------")
+                                referencia = str(input(">> ")) # PONER EXCEPTION
+                                Functions.ComprarServicios(referencia)
                                 os.system("clear")
+                                print("-------------------------------")
+                                print("COMPRA REALIZADA EXITOSAMENTE!!")
+                                print("-------------------------------")
+                                time.sleep(2)
+                                os.system("clear")
+                            elif option == 0:
+                                 break
+                            else:
+                                os.system("clear")
+                                print("----------------")
+                                print("OPCION INVALIDA!")
+                                print("----------------")
                                 break
                     elif option == 3:
                         while True:  # servicio al cliente
-                            datos = Functions.CargarDatos("ConsultasDataBase.json")
                             menu.menuServicioAlCliente()
                             option = menu.eleccion()
-                            if option == 1:
-                                consulta = str(input("INGRESA LA CONSULTA QUE DESEAS\n>> "))
-                                for dato in datos.values():
-                                    datos = dato.append(consulta)
+                            os.system("clear")
+                        #    while True:
+                            if option == 1: # Sugerencias
+                                    sugerencia = str(input("INGRESA LA SUGERENCIA QUE DESEES\n>> "))
+                                    Functions.GuardarConsulta(sugerencia)
+                                    os.system("clear")
+                                    print("---------------------------")
+                                    print("SUGERENCIA ENVIADA CON EXITO!")
+                                    print("---------------------------")                                  
+                                    time.sleep(2)
+                                    print("----------")
+                                    print("[1] VOLVER")
+                                    print("----------") 
+                                    chose = menu.eleccion()
+                                    if chose == 1:
+                                        os.system("clear")
+                                        break                        
                                     
-                            elif option == 2:
-                                None
+                            elif option == 2: # Reclamos
+                                    reclamo = str(input("INGRESA EL RECLAMO QUE DESEES\n>> "))
+                                    Functions.GuardarProblemas(reclamo)
+                                    os.system("clear")
+                                    print("---------------------------")
+                                    print("RECLAMO ENVIADO CON EXITO")
+                                    print("---------------------------")
+                                    time.sleep(2)
+                                    print("----------")
+                                    print("[1] VOLVER")
+                                    print("----------")
+                                    option = menu.eleccion()
+                                    if option == 1:
+                                         os.system("clear")
+                                         break                            
+
                             elif option == 3:
-                                break                                    
+                                    break                              
                     elif option == 4:
-                        None # reclamos
-                    elif option == 5:
-                        None # sugerencias
-                    elif option == 6:
-                        break # Volver al menu principal
+                        break
                     else:
                         while True:
                             print("---------------")

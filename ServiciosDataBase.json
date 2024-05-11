@@ -3,7 +3,7 @@
         {
             "Nombre": "Internet de Fibra Optica",
             "Referencia" : "001",
-            "Descripcion": "Conexión a internet rápida y confiable utilizando tecnología de fibra óptica.",
+            "Descripcion": "Conexion a internet rapida y confiable utilizando tecnologia de fibra optica.",
             "Velocidad de Conexion": "100 Mbps",
             "Disponibilidad": "Bucaramanaga, Floridablanca, Giron",
             "Precio": "100.000"
@@ -11,8 +11,8 @@
         {
             "Nombre": "Planes PostPago",
             "Referencia": "002",
-            "Descripcion": "Planes de telefonía móvil que ofrecen una variedad de beneficios.",
-            "Beneficios": "Incluyen minutos, mensajes de texto y datos móviles, dependiendo del plan elegido.",
+            "Descripcion": "Planes de telefonia movil que ofrecen una variedad de beneficios.",
+            "Beneficios": "Incluyen minutos, mensajes de texto y datos moviles, dependiendo del plan elegido.",
             "Duracion" : "1 Mes",
             "Precio": "39.000"
         }
