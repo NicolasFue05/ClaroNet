@@ -1,0 +1,7 @@
+Fecha y hora: 2024-05-14 03:32:05
+Traceback (most recent call last):
+  File "c:\Users\luisa\pseint\PythonProyectoClaro\main.py", line 13, in <module>
+    opcion = int(input(">> "))
+             ^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'asd'
+
