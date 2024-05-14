@@ -6,7 +6,7 @@ def menu():
 [1] USUARIOS
 [2] SERVICIOS
 [3] PRODUCTOS
-[4] ATENCION AL CLIENTE 
+[4] SERVICIO AL CLIENTE 
 [0] SALIR                        
 --------------------------------------------
 """) 
