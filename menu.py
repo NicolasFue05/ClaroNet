@@ -1,27 +1,23 @@
 def menu():
     print("""
 --------------------------------------------
-       QUIEN ESTA USANDO EL PROGRAMA?                    
+            CLARO DATABASE                   
 --------------------------------------------
-[1] USUARIO
-[2] ADMINISTRADOR
-[3] SALIR
+[1] USUARIOS
+[2] SERVICIOS
+[3] PRODUCTOS
+[4] ATENCION AL CLIENTE 
+[0] SALIR                        
 --------------------------------------------
 """) 
     
 
-# MENUS ADMIN
-def menuAdmin():
-    print("""
--------------------------------          
-[1] USUARIOS
-[2] SERVICIOS
-[3] VOLVER AL MENU PRINCIPAL
--------------------------------                 
-""")
+
     
-def menuUsers_Admin():
+def menuAdminClientes():
     print("""
+--------------------------------
+            USUARIOS                    
 --------------------------------          
 [1] CREAR USUARIO
 [2] LEER INFORMACION DE USUARIO
@@ -29,31 +25,39 @@ def menuUsers_Admin():
 [4] ELIMINAR USUARIO              
 [5] MOSTRAR CLIENTES LEALES
 [6] MOSTRAR CLIENTES REGULARES
-[7] VOLVER AL MENU PRINCIPAL          
-[8] SALIR          
+[7] MOSTRAR CLIENTES NUEVOS 
+[8] OFERTAS Y PROMOCIONES      
+[0] SALIR          
 -------------------------------          
 """)
     
-def menuServices_Admin():
+def menuAdminServicios():
     print("""
+--------------------------------
+          SERVICIOS          
 --------------------------------          
 [1] AGREGAR SERVICIO AL CATALOGO
-[2] LEER SERVICIO DEL CATALOGO
-[3] ACTUALIZAR SERVICIOS          
-[4] ELIMINAR SERVICIOS    
-[5] VOLVER AL MENU PRINCIPAL          
-[5] SALIR
+[2] MOSTRAR CATALOGO DE SERVICIOS
+[3] COMPRAR SERVICIOS          
+[4] ACTUALIZAR SERVICIOS          
+[5] ELIMINAR SERVICIOS    
+[6] VOLVER AL MENU PRINCIPAL          
+[0] SALIR
 --------------------------------          
 """)
 
 # MENU USER
-def menuUser():
+def menuAdminProductos():
     print("""
+-----------------------------
+          PRODUCTOS          
 -----------------------------       
-[1] MOSTRAR CATALOGO DE SERVICIOS
-[2] MOSTRAR CATALOGO DE PRODUCTOS          
-[3] SERVICIO AL CLIENTE
-[4] VOLVER AL MENU PRINCIPAL                 
+[1] AGREGAR PRODUCTO
+[2] MOSTRAR CATALOGO DE PRODUCTOS
+[3] COMPRAR PRODUCTO
+[4] ACTUALIZAR PRODUCTO
+[5] ELIMINAR PRODUCTO
+[0] SALIR                              
 -----------------------------           
 """)
     
@@ -61,12 +65,10 @@ def menuUser():
 def menuServicioAlCliente():
     print("""
 ---------------------------
+    SERVICIO AL CLIENTE          
+---------------------------
 [1] SUGERENCIAS
 [2] RECLAMOS
-[3] VOLVER
+[0] VOLVER
 ---------------------------               
 """)
-
-def eleccion():
-    return int(input(">> "))
-    

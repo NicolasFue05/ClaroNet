@@ -2,19 +2,59 @@
     "Servicios": [
         {
             "Nombre": "Internet de Fibra Optica",
-            "Referencia" : "001",
-            "Descripcion": "Conexion a internet rapida y confiable utilizando tecnologia de fibra optica.",
-            "Velocidad de Conexion": "100 Mbps",
-            "Disponibilidad": "Bucaramanaga, Floridablanca, Giron",
-            "Precio": "100.000"
+            "Referencia": "001",
+            "Descripcion": "Conexion a internet de alta velocidad a traves de fibra optica.",
+            "Detalles": "Velocidades de descarga de hasta 1 Gbps.",
+            "Precio": "Varia segun el plan"
         },
         {
-            "Nombre": "Planes PostPago",
+            "Nombre": "Plan PostPago",
+            "Referencia": "007",
+            "Descripcion": "Plan de telefonia movil que permite pagar al final del periodo de facturacion.",
+            "Detalles": "Incluye una asignacion mensual de minutos, mensajes de texto y datos moviles.",
+            "Precio": "Varia segun el plan y los servicios incluidos"
+        },
+        {
+            "Nombre": "Plan Prepago",
+            "Referencia": "008",
+            "Descripcion": "Plan de telefonia movil que requiere el pago por adelantado.",
+            "Detalles": "Recargas disponibles en multiples montos para ajustarse a las necesidades del usuario.",
+            "Precio": "Varia segun el monto de la recarga"
+        },
+        {
+            "Nombre": "Servicio de SMS Ilimitados",
             "Referencia": "002",
-            "Descripcion": "Planes de telefonia movil que ofrecen una variedad de beneficios.",
-            "Beneficios": "Incluyen minutos, mensajes de texto y datos moviles, dependiendo del plan elegido.",
-            "Duracion" : "1 Mes",
-            "Precio": "39.000"
+            "Descripcion": "Envia mensajes de texto ilimitados a cualquier operador nacional.",
+            "Detalles": "Incluye SMS ilimitados.",
+            "Precio": "$10"
+        },
+        {
+            "Nombre": "Roaming Internacional",
+            "Referencia": "003",
+            "Descripcion": "Permite utilizar el servicio telefonico en el extranjero.",
+            "Detalles": "Tarifas especiales para llamadas y datos en el extranjero.",
+            "Precio": "Varia segun el destino"
+        },
+        {
+            "Nombre": "Servicio de Llamadas Internacionales",
+            "Referencia": "004",
+            "Descripcion": "Realiza llamadas a numeros internacionales desde tu linea telefonica.",
+            "Detalles": "Tarifas especiales para llamadas internacionales.",
+            "Precio": "Varia segun el destino y la duracion de la llamada"
+        },
+        {
+            "Nombre": "Plan Familiar",
+            "Referencia": "005",
+            "Descripcion": "Un plan para compartir minutos y datos entre miembros de una misma familia.",
+            "Detalles": "Incluye multiples lineas y descuentos por cada linea adicional.",
+            "Precio": "Varia segun el numero de lineas y los servicios incluidos"
+        },
+        {
+            "Nombre": "Servicio de Atencion al Cliente 24/7",
+            "Referencia": "006",
+            "Descripcion": "Soporte tecnico y atencion al cliente disponible las 24 horas del dia, los 7 dias de la semana.",
+            "Detalles": "Atencion telefonica, en linea y en tiendas fisicas.",
+            "Precio": "Incluido en todos los planes"
         }
     ]
 }

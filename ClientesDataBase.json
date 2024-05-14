@@ -1,25 +1,77 @@
 {
     "Clientes": [
         {
-            "Nombre": "Raul Ramirez",
-            "Identificacion": "1097782695",
-            "Informacion de Contacto": "raulr@gmail.com",
-            "Telefono Del Cliente": "3102199774",
-            "Direccion de Residencia": "Conjunto Altos del Viento",
-            "Historal de Compras": [
-                {
-                    "Nombre": "Consola PlayStation®5 Slim Standar",
-                    "Descripcion": "La Consola PlayStation®5 Slim Standard ofrece una experiencia de juego de próxima generación con un diseño elegante y características avanzadas.",
-                    "Especificaciones": "Potente procesador, gráficos de alta calidad, almacenamiento SSD ultrarrápido y compatibilidad con tecnologías de última generación.",
-                    "Caracteristicas": [
-                        "Gráficos de alta fidelidad para una experiencia visual impresionante.",
-                        "Tiempo de carga reducido gracias al almacenamiento SSD.",
-                        "Compatibilidad con juegos de PlayStation®4 y accesorios.",
-                        "Tecnología de audio envolvente para una experiencia de sonido inmersiva."
-                    ],
-                    "Disponibilidad": "Disponible",
-                    "Precio": "3.900.00"
-                }
+            "Nombre": "Maria Sanchez",
+            "Identificacion": "789",
+            "Informacion de Contacto": "maria.sanchez@example.com",
+            "Telefono Del Cliente": "3157894561",
+            "Direccion de Residencia": "Avenida Principal 123",
+            "Tipo de cliente": "Regular",
+            "Historial de Compras": [
+                "Smartphone Samsung Galaxy S22 Ultra - 003",
+                "Laptop Lenovo ThinkPad X1 Carbon - 004"
+            ]
+        },
+        {
+            "Nombre": "Juan Rodriguez",
+            "Identificacion": "890",
+            "Informacion de Contacto": "juan.rodriguez@example.com",
+            "Telefono Del Cliente": "3206547892",
+            "Direccion de Residencia": "Calle 10 #20-30",
+            "Tipo de cliente": "Nuevo",
+            "Historial de Compras": [
+                "Smart TV LG OLED C1 65 pulgadas - 005",
+                "Auriculares Sony WH-1000XM4 - 006"
+            ]
+        },
+        {
+            "Nombre": "Luisa Martinez",
+            "Identificacion": "901",
+            "Informacion de Contacto": "luisa.martinez@example.com",
+            "Telefono Del Cliente": "3181234567",
+            "Direccion de Residencia": "Carrera 50 #45-60",
+            "Tipo de cliente": "Regular",
+            "Historial de Compras": [
+                "C\u00c3\u00a1mara Canon EOS R5 - 007",
+                "Consola Xbox Series X - 008"
+            ]
+        },
+        {
+            "Nombre": "Carlos Gomez",
+            "Identificacion": "912",
+            "Informacion de Contacto": "carlos.gomez@example.com",
+            "Telefono Del Cliente": "3009876543",
+            "Direccion de Residencia": "Cra. 80 #90-100",
+            "Tipo de cliente": "Leal",
+            "Historial de Compras": [
+                "iPhone 13 Pro Max - 009",
+                "MacBook Pro 16 pulgadas - 010"
+            ]
+        },
+        {
+            "Nombre": "Ana Hernandez",
+            "Identificacion": "923",
+            "Informacion de Contacto": "ana.hernandez@example.com",
+            "Telefono Del Cliente": "3145678901",
+            "Direccion de Residencia": "Diagonal 15 #25-35",
+            "Tipo de cliente": "Leal",
+            "Historial de Compras": [
+                "Tablet iPad Air 2022 - 011",
+                "Impresora HP LaserJet Pro MFP M428fdw - 012",
+                "Smarwicth Apple Series - 008"
+            ]
+        },
+        {
+            "Nombre": "Laura Diaz",
+            "Identificacion": "945",
+            "Informacion de Contacto": "laura.diaz@example.com",
+            "Telefono Del Cliente": "3198765432",
+            "Direccion de Residencia": "En la calle",
+            "Tipo de cliente": "Nuevo",
+            "Historial de Compras": [
+                "Drone DJI Air 2S - 015",
+                "Smartwatch Apple Watch Series 7 - 016",
+                "Nose - 004"
             ]
         }
     ]

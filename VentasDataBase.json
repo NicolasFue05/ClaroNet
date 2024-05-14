@@ -7,6 +7,53 @@
             "Velocidad de Conexion": "100 Mbps",
             "Disponibilidad": "Bucaramanaga, Floridablanca, Giron",
             "Precio": "100.000"
+        },
+        {
+            "Servicio": {
+                "Nombre": "Roaming Internacional",
+                "Referencia": "003",
+                "Descripcion": "Permite utilizar el servicio telefonico en el extranjero.",
+                "Detalles": "Tarifas especiales para llamadas y datos en el extranjero.",
+                "Precio": "Varia segun el destino"
+            },
+            "Comprador": {
+                "Nombre": "laura diaz",
+                "Identificacion": "945"
+            }
+        },
+        {
+            "Servicio": {
+                "Nombre": "Servicio de Llamadas Internacionales",
+                "Referencia": "004",
+                "Descripcion": "Realiza llamadas a numeros internacionales desde tu linea telefonica.",
+                "Detalles": "Tarifas especiales para llamadas internacionales.",
+                "Precio": "Varia segun el destino y la duracion de la llamada"
+            },
+            "Comprador": {
+                "Nombre": "Laura Dias",
+                "Identificacion": "945"
+            }
+        },
+        {
+            "Producto": {
+                "Nombre": "Smartwatch Apple Series 7",
+                "Referencia": "008",
+                "Descripcion": "El Smartwatch Apple Watch Series 7 ofrece funciones avanzadas de salud y estado f\u00c3\u00adsico, adem\u00c3\u00a1s de nuevas caracter\u00c3\u00adsticas de comunicaci\u00c3\u00b3n y entretenimiento.",
+                "Especificaciones": "Pantalla Retina siempre activa, sensor de ox\u00c3\u00adgeno en sangre, seguimiento avanzado del sue\u00c3\u00b1o, resistente al agua, watchOS 8.",
+                "Caracteristicas": [
+                    "Pantalla Retina siempre activa para ver la hora y la informaci\u00c3\u00b3n de un vistazo.",
+                    "Sensor de ox\u00c3\u00adgeno en sangre para monitorear la salud cardiovascular.",
+                    "Seguimiento avanzado del sue\u00c3\u00b1o para mejorar la calidad del descanso.",
+                    "Resistente al agua para usarlo durante actividades acu\u00c3\u00a1ticas.",
+                    "watchOS 8 con nuevas esferas de reloj, aplicaciones y funciones de salud."
+                ],
+                "Disponibilidad": "Disponible",
+                "Precio": "Var\u00c3\u00ada seg\u00c3\u00ban el tama\u00c3\u00b1o y los materiales de la correa"
+            },
+            "Comprador": {
+                "identificacion": "923",
+                "Nombre": "Ana Hernandez"
+            }
         }
     ]
 }

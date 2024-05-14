@@ -1,6 +1,9 @@
-{ 
+{
     "Reclamos": [
-        "Mi telefono llego sin cargador :(",
-        "Mis datos estan muy lentos, pague un servicio de plan postpago de 1 mes, ayuda"
+       {
+            "Nombre": "Ana Hernandez",
+            "Identificacion": "923",
+            "Reclamo": "si"
+        }
     ]
 }
