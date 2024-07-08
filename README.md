@@ -1,4 +1,4 @@
-# claroNet
+# CLARONET
 
 ## Descripción
 El proyecto claroNet es una aplicación de gestión de clientes y productos desarrollada en Python. Su principal funcionalidad se centra en operaciones CRUD (Crear, Leer, Actualizar, Eliminar) tanto para clientes como para productos.
